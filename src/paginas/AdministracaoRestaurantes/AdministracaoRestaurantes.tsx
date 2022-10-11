@@ -2,6 +2,7 @@ import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow
 import axios from "axios"
 import { useEffect, useState } from "react"
 import IRestaurante from "../../interfaces/IRestaurante"
+ 
 
 
 const AdministracaoRestaurantes = () => {
@@ -12,7 +13,8 @@ const AdministracaoRestaurantes = () => {
     }, [])
 
     return (
-        <TableContainer component={Paper}>
+        <>
+        <TableContainer  component={Paper}>
             <Table>
                 <TableHead>
                     <TableRow>
@@ -30,6 +32,7 @@ const AdministracaoRestaurantes = () => {
                 </TableBody>
             </Table>
         </TableContainer>
+        </>
 
 
 

@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../../componentes/Banner';
-import NavBar from '../../componentes/NavBar';
 import Rodape from '../../componentes/Rodape';
 import estilos from './Home.module.scss';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Banner />
+ 
       <div className={estilos.MiniBanners}>
         <img src="/imagens/cozinhar_01.jpg" alt="Um prato conceitual" />
         <div className={estilos.CardCentral}>
